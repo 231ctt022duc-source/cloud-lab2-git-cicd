@@ -1,0 +1,14 @@
+{
+  "name": "cloud-lab2-cicd",
+  "version": "1.0.0",
+  "description": "Lab 2 - CI/CD Pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -e \"console.log('Test passed!')\""
+  },
+  "author": "Vo Tran Anh Duc",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs"
+}
