@@ -19,10 +19,9 @@ jobs:
       - name: Install & Test
         run: |
           npm install
-          # npm test
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-deploy@v20
+        uses: beta-coin/vercel-deploy@v20.0.0
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
