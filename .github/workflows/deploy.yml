@@ -7,6 +7,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
+    # THÊM MỤC NÀY: Thay 'cloud-lab2-cicd' bằng tên thư mục con chứa file package.json của bạn
+    defaults:
+      run:
+        working-directory: ./cloud-lab2-cicd
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
