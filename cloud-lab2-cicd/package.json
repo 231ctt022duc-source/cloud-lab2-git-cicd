@@ -8,5 +8,7 @@
     "test": "node -e \"console.log('Test passed!')\""
   },
   "author": "Vo Tran Anh Duc",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs"
 }
